@@ -6,9 +6,9 @@ on:
 
 jobs:
   deploy-test:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "Hacemos pull del codigo"
-    - run: echo "Correr migraciones"
-    - run: echo "Generar binario"
-    - run: echo "Publicar version"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hacemos pull del codigo"
+      - run: echo "Correr migraciones"
+      - run: echo "Generar binario"
+      - run: echo "Publicar version"
